@@ -12,6 +12,7 @@ The data repository for the project is found at
  There are two deliverables for this project: An R script named run_analysis.R and resultant codebook.
 
 The run_analysis.R script shall perform the following actions:
+
 1. Merge the training and the test data sets to create a single data set.
 2. Extract only the measurements on the mean and standard deviation for each measurement.
 3. Use descriptive activity names to name the activities in the data set.
