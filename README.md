@@ -9,7 +9,7 @@ The data repository for the project is found at
  [UCI Machine Learning Repository: Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 ### Project Deliverables
- There are two deliverables for this project: An R script named run_analysis.R and associated codebookin a markdown file named CodeBook.md.
+ There are two deliverables for this project: An R script named run_analysis.R and associated codebook in a markdown file named CodeBook.md.
 
 The run_analysis.R script shall perform the following actions:
 
