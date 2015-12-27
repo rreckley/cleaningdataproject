@@ -51,7 +51,7 @@ names(y_data) <- "activity"
 ##
 #Apply desciprtive labels to measurements and subjects
 names(x_data) <- features[measurements_to_extract, 2]
-names(subject_data) <- "subject"
+names(subject_data) <- "subjectid"
 
 #Create the full data set
 full_data <- cbind(subject_data, y_data, x_data)
@@ -66,7 +66,7 @@ names(full_data) <- tolower(names(full_data))
 ###
 
 #Calculate the average of each variable for each activity and subject.
-tidy_data <- ddply(full_data, c("subject","activity"), numcolwise(mean))
+tidy_data <- ddply(full_data, c("subjectid","activity"), numcolwise(mean))
 
 # Write the resulant data set to a file
-write.table(tidy_data, "tidy_data.txt", row.names = FALSE)
+write.table(tidy_data, "tidy.txt", row.names = FALSE)
